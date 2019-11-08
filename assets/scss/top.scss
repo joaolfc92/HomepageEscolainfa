@@ -1,0 +1,87 @@
+//FONTES
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.container-fluid--top{
+	background-color:#222222;
+}
+
+.contact{
+	height: 50px;
+	display:flex;
+}
+
+.contact__mail,.contact__phone{
+	display: flex;
+	flex:1.5;
+	justify-content: center;
+}
+
+.area__restrita{
+	display:flex;
+	flex:1;
+}
+
+.contact__social{
+	display: flex;
+	flex:1;
+}
+
+.contact__mail a,.contact__phone a,.contact__social a {
+	align-self: center;
+	color: #ababab;
+}
+
+.contact__mail a img,.contact__phone a img,.contact__social a img{
+	height: 25px;
+	width: 25px;
+	margin-right: 10px;
+}
+
+.endereco{
+	font-size: 14px;
+}
+
+.menu,.navbar{
+	height: 86px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#navbarNavDropdown{
+	justify-content: flex-end;
+	z-index:999;
+	
+}
+
+ul.navbar-nav{
+	align-self: flex-end;
+	font-size: 21px;
+}
+
+.dropdown-item{
+	&:hover{
+		background-color: black;
+		color:white;
+	};
+	
+}
+
+.nav-item{
+	margin-right: 10px;
+	align-self: flex-end;
+}
+
+.carrosel__int{
+	height: 650px;
+	width: 100%;
+}
+
+.carousel-item img{
+	height: 650px;
+	width: 100%;
+}
+
+
+
+
+

@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+.instituicao{
+	height: 569px;
+	
+}
+
+.instituicao_int{
+	height: 469px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display:flex;
+}
+
+.institucional__video,.institucional__sobre{
+	height: 460px;
+	display: flex;
+	flex: 1;
+	
+	flex-direction: column;
+}
+
+.institucional__tittle{
+	font-family: 'Grand Hotel', cursive;
+	text-align: center;
+	font-size: 60px;
+    color: #5CC6D0;
+}
+
+.institucional__conteudo{
+	margin:10px 20px 10px 20px;
+	font-size: 20px;
+	font-family: 'Dosis', cursive;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.btn-saiba-mais{
+	width: 200px;
+	align-self: center;
+}
+
+iframe{
+	height: 100%;
+}
+
+.container-fluid--green{
+	background-color: rgba(111,205,124,0.96);
+}
+
+.nossaEstrutura{
+	height: 850px;
+	
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.nossaEstrutura__tittle{
+	display: flex;
+	flex:1;
+	font-family: 'Grand Hotel', cursive;
+	line-height: 169px;
+	font-size: 60px;
+	justify-content: center;
+	color:white;
+	font-weight: bolder;
+}
+
+
+.nossaEstrutura_body{
+	display: flex;
+	flex:4;
+}
+
+.nossaEstrutura__card{
+	display: flex;
+	flex:1;
+	height: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	
+}
+
+
+
+.nossaEstrutura__card .card img{
+	height: 250px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.card-title{
+	font-family: 'Dosis', cursive;
+    font-size: 18px;
+    line-height: 1.4em;
+    margin: 8px 0px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	
+	
+}
+
+.card-text{
+	color: #777777;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+	text-align: center;
+}
+
+.btn--card{
+	width: 150px;
+	width: -webkit-fill-available;
+}
+
+.card{
+	margin-bottom: 50px;
+}
+
+.parallax__home{
+	background-image: url(../image/cardbody/creche-bos.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color:white;
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+
+.parallax__home--quebra{
+	background-image: url(../image/parallax/quebra.jpg);
+	object-fit: cover;
+}
+
+.diferencial{
+	height: 1000px;
+	display:flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	
+
+}
+
+.diferencial__tittle{
+	display: flex;
+	flex:1;
+	
+	font-family: 'Grand Hotel', cursive;
+	font-size: 60px;
+	color: #5CC6D0;
+	justify-content: center;
+}
+
+.diferencial__conteudo{
+	display:flex;
+	flex:7;
+
+}
+
+.diferencial__left,.diferencial__center,.diferencial__rigth{
+	display: flex;
+	flex:1;
+
+	flex-direction: column;
+}
+
+.diferencial__left-1,.diferencial__left-2,.diferencial__left-3,.diferencial__right-1,.diferencial__right-2,.diferencial__right-3{
+	display: flex;
+	flex:1;
+	
+}
+
+.diferencial__left-1--conteudo{
+	display: flex;
+	flex:3;
+	flex-direction: column;
+}
+
+.diferencial__left-1-image{
+	display:flex;
+	flex:1;
+	margin-left: 10px;
+}
+
+.diferencial__left-1-image img{
+	height: 100px;
+	width: 100px;
+	align-self: center;
+}
+
+.diferencial__left-tittle{
+	color: rgb(51, 51, 51);
+	transition: all 0.3s ease 0s;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: right;
+	margin-bottom: 25px;
+}
+
+.diferencial__left-desc{
+	color: rgb(119, 119, 119);
+	font-size: 15px;
+	text-align: right;
+}
+
+.diferencial__left-1-image--mod img{
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+____
+
+.diferencial__right-1--conteudo{
+	display: flex;
+	flex:3;
+	flex-direction: column;
+}
+
+.diferencial__right-1-image{
+	display:flex;
+	flex:1;
+	margin-right: 10px;
+}
+
+.diferencial__right-1-image img{
+	height: 100px;
+	width: 100px;
+	align-self: center;
+}
+
+.diferencial__right-tittle{
+	color: rgb(51, 51, 51);
+	transition: all 0.3s ease 0s;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.diferencial__right-desc{
+	color: rgb(119, 119, 119);
+	font-size: 15px;
+	text-align: left;
+}
+
+.diferencial__right-1-image--mod img{
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.diferencial__center img{
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.diferencial__center{
+	justify-content: center;
+}
+
+.matriculas{
+	height: 300px;
+	background-color:#f5b51f;
+	display: flex;
+}
+
+.matriculas__tittle,.matriculas__desc,.matriculas__btn{
+	display: flex;
+	flex:1;
+	
+	justify-content: center;
+}
+
+.matriculas__tittle{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2em;
+	text-transform: uppercase;
+	font-family: Dosis, sans-serif;
+	align-self: center;
+	
+}
+
+.abertas{
+	font-size: 50px;
+	align-self: center;
+}
+
+.matriculas__desc{
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	align-self: center;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.btn-matricular{
+	align-self: center;
+	height: 80px;
+	width: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	text-align: center;
+	line-height: 60px;
+
+}
