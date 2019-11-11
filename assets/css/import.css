@@ -58,31 +58,35 @@
   font-size: 14px;
 }
 
-.menu, .navbar {
+.menu__home, .navbar {
   height: 86px;
   font-family: "Oswald", sans-serif;
 }
 
-#navbarNavDropdown {
-  justify-content: flex-end;
-  z-index: 999;
+/*
+#navbarNavDropdown{
+	justify-content: flex-end;
+	z-index:999;
+
 }
 
-ul.navbar-nav {
-  align-self: flex-end;
-  font-size: 21px;
+ul.navbar-nav{
+	align-self: flex-end;
+	font-size: 21px;
 }
 
-.dropdown-item:hover {
-  background-color: black;
-  color: white;
+.dropdown-item{
+	&:hover{
+		background-color: black;
+		color:white;
+	};
+
 }
 
-.nav-item {
-  margin-right: 10px;
-  align-self: flex-end;
-}
-
+.nav-item{
+	margin-right: 10px;
+	align-self: flex-end;
+}*/
 .carrosel__int {
   height: 650px;
   width: 100%;
@@ -380,6 +384,346 @@ ____ .diferencial__right-1--conteudo {
   font-size: 21px;
   text-align: center;
   line-height: 60px;
+}
+
+.container-fluid--blue {
+  background-color: #4527a0;
+}
+
+.bercario {
+  height: 700px;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bercario__left, .bercario__right {
+  flex: 1;
+  display: flex;
+}
+
+.bercario__left {
+  align-self: center;
+  justify-content: center;
+}
+
+.bercario__left img {
+  height: 450px;
+  width: 450px;
+}
+
+.bercario__right {
+  flex-direction: column;
+}
+
+.bercario__right-tittle {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+}
+
+.bercario__right-desc, .bercario__right-btn {
+  display: flex;
+  flex: 1;
+}
+
+.tittle__bercario {
+  font-size: 30px;
+  color: #1e83b9;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-weight: 800;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  color: #ccc;
+  font-family: "Dosis", sans-serif;
+}
+
+.tittle__cuidar {
+  font-size: 100px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: "Grand Hotel", cursive;
+  color: white;
+}
+
+.tittle__desc {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+
+.bercario__right-desc {
+  line-height: 1.6em;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #ccc;
+}
+
+.btn-bercario {
+  height: 60px;
+  width: 200px;
+  font-size: 21px;
+  font-weight: bolder;
+  align-self: center;
+  line-height: 40px;
+}
+
+.galeria {
+  height: 1400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.galeria__tittle {
+  display: flex;
+  flex: 1.5;
+  font-family: "Grand Hotel", cursive;
+  font-size: 60px;
+  color: #5CC6D0;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria__fotos {
+  display: flex;
+  flex: 8.5;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.container__fluid--local {
+  height: 180px;
+  width: 100%;
+  background-color: #e33c4e;
+}
+
+.container__fluid--local-int {
+  padding-top: 10px;
+}
+
+.contact__footer {
+  height: 160px;
+  display: flex;
+}
+
+.phone, .endereco, .horario {
+  display: flex;
+  flex: 1;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column;
+}
+
+.phone img, .endereco img, .horario img {
+  opacity: 0.8;
+}
+
+h4 {
+  z-index: 999;
+  margin-top: -20px;
+  color: white;
+  font-size: 25px;
+}
+
+.fontes {
+  z-index: 500;
+  margin-top: -80px;
+  color: white;
+  font-size: 18px;
+}
+
+.fontes__mod {
+  font-size: 15px;
+  z-index: 500;
+  margin-top: -80px;
+  color: white;
+}
+
+.mapa {
+  height: 400px;
+}
+
+.parceiros {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parceiros__widget {
+  height: 180px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 150px;
+  flex: 1;
+  justify-content: center;
+}
+
+.parceiros__widget img {
+  align-self: center;
+  align-items: center;
+  object-fit: contain;
+  box-sizing: border-box;
+  width: 150px;
+}
+
+.rodape__fundo {
+  background-image: url(../image/rodape/fundo.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.rodape {
+  height: 730px;
+  display: flex;
+}
+
+.rodape__form, .rodape__facebook {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.rodape__form {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__facebook {
+  display: flex;
+  flex: 1;
+}
+
+.contact__rodape {
+  display: flex;
+  flex: 1.5;
+  font-family: "Grand Hotel", cursive;
+  font-size: 60px;
+  color: #5CC6D0;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.formulario-input {
+  height: 50px;
+  width: 350px;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+}
+
+.formulario-input--altura {
+  height: 250px;
+}
+
+::placeholder {
+  color: white !important;
+  font-weight: bolder !important;
+}
+
+#emailHelp {
+  color: #5CC6D0 !important;
+}
+
+.btn-form {
+  width: -webkit-fill-available;
+}
+
+.rodape__facebook-link {
+  margin-top: 40px;
+}
+
+.menu {
+  height: 100px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  height: 100px;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: 100%;
+}
+
+.header-menu {
+  display: flex;
+  flex: 6;
+  height: 100px;
+  justify-content: flex-end;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+}
+
+#menu-open {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding-top: 70px;
+  margin-right: 20px;
+}
+
+#menu-area {
+  height: 100vh;
+  width: 0px;
+  background-color: #222;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all ease 0.5s;
+  z-index: 999;
+  margin-top: 50px;
+}
+
+#menu-area ul, #menu-area li {
+  padding: 0;
+  list-style: none;
+}
+
+#menu-area li {
+  display: block;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 2em;
+  line-height: 30px;
+  height: 20px;
+  margin-bottom: 25px;
+  padding-left: 55px;
+  padding-top: 25px;
+}
+
+#fechar {
+  display: none;
+}
+
+#img-menu {
+  margin-right: 20px;
+  width: 30px;
+}
+
+#menu-area li:hover {
+  color: #ff8829;
 }
 
 /*# sourceMappingURL=import.css.map */
