@@ -229,6 +229,7 @@ iframe {
   flex-direction: column;
   margin-bottom: 50px;
   margin-top: 50px;
+  
 }
 
 .diferencial__tittle {
@@ -724,6 +725,25 @@ aside {
 
 #menu-area li:hover {
   color: #ff8829;
+}
+
+.container--fluid__bluelight{
+  background-color:black  ;
+  height: 120px;
+}
+
+.contact__social--mod{
+  justify-content: center;
+}
+
+.contact__social--mod a img{
+  height: 40px;
+  width: 40px;
+  align-self: center;
+}
+
+.footer-copyright{
+  color:#ff8829;
 }
 
 /*# sourceMappingURL=import.css.map */
